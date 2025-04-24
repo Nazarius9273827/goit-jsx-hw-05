@@ -1,4 +1,3 @@
-// components/RecipeCard.js
 import styled from "styled-components";
 import Difficulty from "./Difficulty";
 

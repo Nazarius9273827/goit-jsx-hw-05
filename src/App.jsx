@@ -1,12 +1,12 @@
 import React from "react";
-import { GlobalStyles } from "./styles/GlobalStyles";
-import RecipeCard from "./components/RecipeCard";
+import GlobalStyles from './GlobalStyles.jsx';
+import RecipeCard from './components/RecipeCard.jsx';
 import styled from "styled-components";
 
 const recipes = [
   {
     title: "Smoked salmon burger",
-    image: "https://source.unsplash.com/250x150/?burger",
+    image: "https://kpthai.com/frontend/images/news/I0000014.jpg",
     time: "20 min",
     servings: 6,
     calories: 210,
@@ -14,7 +14,7 @@ const recipes = [
   },
   {
     title: "Tomatoes With Creamy Feta",
-    image: "https://source.unsplash.com/250x150/?salad",
+    image: "https://assets.bonappetit.com/photos/62b4926736e0c90647da6b71/1:1/w_2560%2Cc_limit/0623-diana-yen-tomato-recipe-lede.jpg",
     time: "15 min",
     servings: 3,
     calories: 600,
@@ -22,7 +22,7 @@ const recipes = [
   },
   {
     title: "Spicy potato salad",
-    image: "https://source.unsplash.com/250x150/?potato",
+    image: "https://mccormick.widen.net/content/uvjk9yurf1/original/spicy_potato_salad_637390546085236844_800x800.jpg",
     time: "30 min",
     servings: 2,
     calories: 320,
@@ -30,7 +30,7 @@ const recipes = [
   },
   {
     title: "Chicken Biryani",
-    image: "https://source.unsplash.com/250x150/?biryani",
+    image: "https://ministryofcurry.com/wp-content/uploads/2024/06/chicken-biryani-5.jpg",
     time: "40 min",
     servings: 4,
     calories: 700,

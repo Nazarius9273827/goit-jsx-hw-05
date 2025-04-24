@@ -12,7 +12,7 @@ const DifficultyLevel = styled.span`
   border-radius: 8px;
   font-size: 14px;
   background-color: ${({ level }) =>
-    level === 0 ? "#ffcccc" : level === 1 ? "#ffd700" : "#ff5733"};
+    level === 0 ? "#80ff00" : level === 1 ? "#ffd700" : "#ff5733"};
   color: ${({ level }) => (level === 3 ? "white" : "black")};
 `;
 
