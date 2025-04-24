@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import createGlobalStyle from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   body {
@@ -8,3 +8,5 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
   }
 `;
+
+export default GlobalStyles;
